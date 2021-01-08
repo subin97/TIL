@@ -71,3 +71,49 @@
 
 - `git push origin master`
 - 원격저장소에 master 브랜치의 데이터를 전송
+
+----
+
+### Branch
+
+##### 1. git branch
+
+- `git branch` : 현재 생성되어 있는 branch 확인
+- `git branch [새 브랜치 이름]` : 새 브랜치 생성
+
+- `-d` 옵션 : 브랜치 삭제
+
+  - 활동중인 브랜치는 삭제 불가능
+
+  
+
+##### 2. git checkout
+
+- `git checkout [브랜치 이름]` : 브랜치 변경
+
+- git 2.23 버전 이상에서 `checkout` 대신 `git switch` 명령어 사용
+
+
+
+---
+
+### 확인
+
+##### 1. git version 확인
+
+- `git --version`
+
+##### 2. 로그 확인
+
+- `git log`
+
+  - `--oneline` 옵션 : 한 줄로 표시
+
+  - `--oneline --graph` : 분기 처리 시각화하여 보여줌
+
+  - <img src="C:\Users\32164640\AppData\Roaming\Typora\typora-user-images\image-20210108134617904.png" alt="image-20210108134617904" style="zoom: 67%;" />
+
+    
+
+    
+
