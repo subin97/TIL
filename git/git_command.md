@@ -29,25 +29,35 @@
 
 
 
-##### 4. diff
-
-- `git diff`
-- 마지막 커밋과 현재 폴더 상태를 비교해서 차이점을 출력
-
-
-
-##### 5. log
-
-- `git log`
-- 커밋 히스토리를 출력
-
-
-
-##### 6. remote add
+##### 4. remote add
 
 - `git remote add origin [url]`
 - 깃아, 원격저장소 추가해줘. 별명은 origin이고 실제 주소는 [url]이야.
 - 원격저장소 주소를 저장
+
+---
+
+### 확인
+
+##### 1. git version 확인
+
+- `git --version`
+
+
+
+##### 2. 로그 확인
+
+- `git log` : 커밋 히스토리를 출력
+
+  - `--oneline` 옵션 : 한 줄로 표시
+
+  - `--oneline --graph` : 분기 처리 시각화하여 보여줌
+
+    
+
+##### 3. 변경사항 확인
+
+- `git diff` : 마지막 커밋과 현재 폴더 상태를 비교해서 차이점을 출력
 
 ---
 
@@ -92,28 +102,3 @@
 - `git checkout [브랜치 이름]` : 브랜치 변경
 
 - git 2.23 버전 이상에서 `checkout` 대신 `git switch` 명령어 사용
-
-
-
----
-
-### 확인
-
-##### 1. git version 확인
-
-- `git --version`
-
-##### 2. 로그 확인
-
-- `git log`
-
-  - `--oneline` 옵션 : 한 줄로 표시
-
-  - `--oneline --graph` : 분기 처리 시각화하여 보여줌
-
-  - <img src="C:\Users\32164640\AppData\Roaming\Typora\typora-user-images\image-20210108134617904.png" alt="image-20210108134617904" style="zoom: 67%;" />
-
-    
-
-    
-
