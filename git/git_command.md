@@ -100,5 +100,30 @@
 ##### 2. git checkout
 
 - `git checkout [브랜치 이름]` : 브랜치 변경
-
 - git 2.23 버전 이상에서 `checkout` 대신 `git switch` 명령어 사용
+
+---
+
+### Undo
+
+##### 1. Unstage(add 취소)
+
+- `git reset HEAD [파일]`
+  - 2.23 버전 이후 : `reset` 대신 `restore`
+
+
+
+##### 2. Uncommit
+
+> 방법은 알아두되, 사용하지 않는 것이 좋음
+>
+> 커밋은 신중히!
+
+- `git commit --amend` : 직전 commit의 **commit message** 수정
+- `git reset HEAD^` : 직전 로그 삭제
+  - `^` 개수만큼의 커밋 삭제
+
+- `git reset`
+  - `--hard` 
+  - `--soft` 
+  - `--mixed` 
